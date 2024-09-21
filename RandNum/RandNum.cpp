@@ -8,14 +8,14 @@ int main() {
 
 	srand(time(NULL));
 
-	int rand_num = 1 + rand() % 20;
+	int randnum = 1 + rand() % 20;
 	int kaka;
 	bool stoyat = false;
 
 	do {
 		cout << "Введите число: " << endl;
 		cin >> kaka;
-		if (kaka != rand_num)
+		if (kaka != randnum)
 			cout << "Вы не угадали число! Повторите попытку." << endl;
 		else {
 			cout << "Верно, вы угадали число!" << endl;
