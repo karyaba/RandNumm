@@ -10,7 +10,7 @@ int main() {
 
 	int rand_num = 1 + rand() % 20;
 	int kaka;
-	bool stop = false;
+	bool stoyat = false;
 
 	do {
 		cout << "Введите число: " << endl;
@@ -19,9 +19,9 @@ int main() {
 			cout << "Вы не угадали число! Повторите попытку." << endl;
 		else {
 			cout << "Верно, вы угадали число!" << endl;
-			stop = true;
+			stoyat = true;
 		}
-	} while (!stop);
+	} while (!stoyat);
 
 	return 0;
 }
