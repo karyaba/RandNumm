@@ -1,0 +1,3 @@
+﻿  RandNum.cpp
+C:\Users\Я\source\repos\RandNum\RandNum\RandNum.cpp(9,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  RandNum.vcxproj -> C:\Users\Я\source\repos\RandNum\RandNum\x64\Debug\RandNum.exe
