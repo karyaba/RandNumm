@@ -9,13 +9,13 @@ int main() {
 	srand(time(NULL));
 
 	int rand_num = 1 + rand() % 20;
-	int user_input;
+	int kaka;
 	bool stop = false;
 
 	do {
 		cout << "Введите число: " << endl;
-		cin >> user_input;
-		if (user_input != rand_num)
+		cin >> kaka;
+		if (kaka != rand_num)
 			cout << "Вы не угадали число! Повторите попытку." << endl;
 		else {
 			cout << "Верно, вы угадали число!" << endl;
