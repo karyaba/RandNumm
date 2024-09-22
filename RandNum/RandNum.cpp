@@ -23,5 +23,8 @@ int main() {
 		}
 	} while (!stoyat);
 
+
+	cout << "Hello World" << endl;
+
 	return 0;
 }
