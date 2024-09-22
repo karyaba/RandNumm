@@ -24,7 +24,7 @@ int main() {
 	} while (!stoyat);
 
 
-	cout << "Hello World" << endl;
+	cout << "World" << endl;
 
 	return 0;
 }
